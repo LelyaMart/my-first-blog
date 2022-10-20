@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Caveat";
+    src: url(./fonts/Caveat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(./fonts/Comfortaa-Regular.ttf);
+}
+
 
 .page-header {
     background-color: #0c0244;
@@ -13,10 +23,11 @@
 
 .content {
     margin-left: 40px;
+    font-family: "Comfortaa";
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Monsterrat', cursive;
+    font-family: 'Caveat';
     color: #0c0244
 }
 
