@@ -1,23 +1,14 @@
-.page-header {
-    background-color: #0c0244;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
-}
-
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #dee5f0;
-    font-size: 36pt;
-    text-decoration: none;
-}
-
-.content {
-    margin-left: 40px;
+body {
     font-family: "Comfortaa";
 }
 
+main {
+    margin-right: 10%;
+}
 h1, h2, h3, h4 {
-    font-family: "Caveat", cursive;
-    color: #0c0244
+    margin-top: 10px;
+    color: #7018FF;
+    font-size: 24pt;
 }
 
 .date {
@@ -32,22 +23,33 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
-    float: right;
-    font-size: 26pt;
-    margin-right: 20px;
-}
-
 .post {
     margin-bottom: 50px;
     margin-top: 10px;
 }
 
-.post h1 a, .post h1 a:visited {
-    color: #1591c2;
+.card {
+    margin-top: 10px;
 }
 
-.card {
-    margin: 10px;
+.title {
+    color: #7018FF;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+
+.btn {
+    background: #7018FF;
+    border-color: #7018FF;
 }
