@@ -5,10 +5,16 @@ body {
 main {
     margin-right: 10%;
 }
-h1, h2, h3, h4 {
+h1, h2, h3 {
     margin-top: 10px;
     color: #7018FF;
     font-size: 24pt;
+}
+
+h4 {
+    margin-top: 15px;
+    color: #7018FF;
+    font-size: 16pt;
 }
 
 .date {
@@ -53,4 +59,8 @@ footer {
     background: #7018FF;
     border-color: #7018FF;
     color: #FFFFFF;
+}
+
+.text-right {
+    text-align: right;
 }

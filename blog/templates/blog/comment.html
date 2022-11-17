@@ -1,0 +1,25 @@
+<div class="card my-2">
+    {% if user.username == comment.author.username %}
+    <div class="card-header text-right">
+        <a class="edit text-right" href="{% url 'comment_edit' pk=comment.pk %}"><i
+            class="bi bi-pencil-square"
+            style="font-size: 15px; color: #0c0244;">Редактировать</i></a>
+            <a class="edit text-right" href="{% url 'comment_edit' pk=comment.pk  %}"><i
+                class="bi bi-trash"
+                style="font-size: 15px; color: #0c0244;">Удалить</i></a>
+    </div>
+    {% endif %}        
+        <div class="card-body">
+            <p class="card-text">
+                {{ comment.text|linebreaksbr }}        
+            </p>
+        <p class="card-text">
+            <small class="text-muted">
+                <i class="bi bi-clock"></i>
+                {{comment.created_date}}
+                <i class="bi bi-person-fill"></i>
+                {{comment.author.username}}                
+            </small>
+        </p>
+    </div>
+</div>
